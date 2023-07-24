@@ -1,0 +1,203 @@
+.right-box{
+    width: 500px;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+}
+
+.entry-step{
+    display: flex;
+    justify-content: space-around;  
+    align-content: center;
+}
+
+.entry-step1, .entry-step2{
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-step1 button, .entry-step2 button{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary1);
+    color: var(--text4);
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.entry-step1 p, .entry-step2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text2);
+    margin: 0;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.right-box-head{
+    text-align: center;
+    color: var(--text2);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125.303%; /* 1.87956rem */
+    margin: 0 auto;
+}
+
+.right-box-head h3{
+    margin: 0 auto;
+}
+
+.subs-plan{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.total-div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub-fee-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 16px;
+}
+
+.sub-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text2);
+    margin-bottom: 5px;
+}
+.sub-fee{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text2);
+    margin-bottom: 5px;
+}
+
+.total-fee-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 16px;
+}
+
+.total-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--text2);
+    margin-bottom: 5px;
+}
+.total-fee{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--text2);
+    margin-bottom: 5px;
+}
+
+.ltd-time-container{
+    display: flex;
+    border: 2px solid var(--danger2);
+    background: #f9dcd1;
+    border-radius: 8px;
+    padding: 12px 16px;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.ltd-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 ;
+    margin-bottom: 8px;
+}
+
+.ltd-subhead{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+
+}
+
+.ltd-subhead img{
+    height: 24px;
+    width: 24px;
+    stroke: var(--danger2);
+}
+.ltd-subhead-txt {
+    font-size: 16px;
+    color: var(--danger2);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.ltd-price-p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: var(--text2);
+    font-size: 16px;
+    margin: 0;
+}
+.button{
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+ }
+.cancel-button{
+    border: 2px var(--danger1) solid;
+    background-color: var(--text4);
+    color: var(--danger1);
+}
+.proceed-button{
+    border: 2px var(--success) solid;
+    background-color: var(--success);
+    color: var(--text4);
+}
+
+.cancel-button, .proceed-button{
+    border-radius: 4px;
+    padding: 18px;
+    height: 56px;
+    width: 220px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    cursor: pointer;
+}
